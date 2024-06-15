@@ -12061,10 +12061,11 @@ pre .code {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../imgs/a.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-bottom: 60px;
 }
 
 .header .overlay {
@@ -12241,3 +12242,39 @@ pre .code {
   display: inline-block; /* İkonları yan yana hizalar */
 }
 
+.button-click {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.25em; /* H6 boyutunda */
+  color: #800080; /* Mor metin rengi */
+  background-color: white; /* Beyaz arka plan */
+  text-decoration: none;
+  border: 2px solid #800080; /* Mor kenarlık */
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 20px; /* Altına mesafe bırakmak için */
+  cursor: pointer;
+  font-weight: bold; /* Yazıların kalın olması için */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.button-click:hover {
+  background-color: #f0f0f0; /* Hover durumu için açık gri arka plan */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.button-click:active {
+  background-color: #e0e0e0; /* Active durumu için daha koyu gri arka plan */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+
+.section-title {
+  font-size: 1.25em; /* H6 boyutunda */
+}
+.portfolio-card-img {
+  width: 100%;
+  height: 250px; /* İstediğiniz yüksekliği buraya ayarlayabilirsiniz */
+  object-fit: cover; /* Resimlerin boyutlandırılması ve kırpılması */
+}
