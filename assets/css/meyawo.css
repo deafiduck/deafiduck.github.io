@@ -604,8 +604,36 @@ pre code {
           flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  display: flex;
+  justify-content: left center;
 }
 
+.row2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content:  center;
+}
+.row3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: right center;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -12277,4 +12305,16 @@ pre .code {
   width: 100%;
   height: 250px; /* İstediğiniz yüksekliği buraya ayarlayabilirsiniz */
   object-fit: cover; /* Resimlerin boyutlandırılması ve kırpılması */
+}
+
+.portfolio-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.portfolio-card-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
