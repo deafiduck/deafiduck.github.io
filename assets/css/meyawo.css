@@ -12342,3 +12342,7 @@ pre .code {
   height: auto;
   display: block;
 }
+.portfolio-card-img {
+  max-width: 180%;
+  height: auto;
+}
